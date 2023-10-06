@@ -1,0 +1,25 @@
+#home{
+    background-image: url(home.avif);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+
+#home .homeD{
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    animation: homeText 1s ease-in 0s normal;
+}
+
+@keyframes homeText{
+    from{
+        left: -30px;
+        top: 80px;
+    }
+    to{
+        left: 30px;
+        top: 150px;
+    }
+}
